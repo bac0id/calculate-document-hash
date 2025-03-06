@@ -1,6 +1,6 @@
 # Calculate document hash
 
-A [Python](https://www.python.org/) script(macro) to calculate document hash in [LibreOffice Writer](https://www.libreoffice.org/).
+A [Python](https://www.python.org/) script(macro) to calculate document hash in [LibreOffice Writer](https://www.libreoffice.org/). It inserts the text `SHA-256 Hash: xxxxxx` at the cursor in the document.
 
 ## Install & Run
 
@@ -22,4 +22,4 @@ A [Python](https://www.python.org/) script(macro) to calculate document hash in 
 
     * Move cursor to a place to insert hash.
     
-    * Click **Tools** -> **Run Macro**.
+    * To insert hash at the cursor, click **Tools** -> **Run Macro**.
